@@ -1,0 +1,50 @@
+.buttonBack{
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.buttonBack.dark{
+    color: hsl(0, 0%, 100%) !important;
+    background-color: hsl(209, 23%, 22%);
+    box-shadow: 0px 0px 15px 16px rgba(0,0,0,0.1);
+}
+
+.buttonBack.light{
+    color: hsl(200, 15%, 8%)!important;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 0px 15px 16px rgba(0,0,0,0.1);
+    border:2px solid rgba(128, 128, 128, 0.446);
+}
+
+.countryInfo{
+    margin-top: 10px !important;
+}
+
+.arrowImage{
+    height: 24px !important;
+    width: 24px !important;
+}
+
+.CountryInfoDetails{
+    padding: 5%;
+}
+
+.CountryInfoDetails.dark{
+    color: white;
+}
+
+.CountryInfoDetails.light{
+    color: hsl(200, 15%, 8%);
+}
+
+.border{
+    padding: 1px;
+    border-radius: 3px;
+}
+.border.dark{
+    background-color: hsl(209, 23%, 22%) !important;
+    border-color: hsl(209, 23%, 22%);
+}
+.border.light{
+    background-color: white !important;
+    border:2px solid rgba(128, 128, 128, 0.2);}

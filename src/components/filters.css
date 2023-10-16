@@ -1,0 +1,49 @@
+input{
+    margin: 20px 0px !important;
+    padding: 12px 40px !important;
+    color:white !important;
+}
+
+input.dark{
+    background: hsl(209, 23%, 22%)  url('/src/assets/search-sharp.svg') no-repeat 10px 50%;
+
+}
+
+input.light{
+    color: hsl(200, 15%, 8%) !important;
+    background:hsl(0, 0%, 100%) url('/src/assets/search-sharp-light.svg') no-repeat 10px 50%;
+    -webkit-box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.25);
+    box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.25);
+}
+
+input.dark::placeholder{
+    color:white !important;
+}
+
+input.light::placeholder{
+    color:hsl(200, 15%, 8%) !important;
+}
+
+select{
+    padding: 10px 80px !important;
+    padding-left: 8px !important;
+
+
+}
+
+select.dark{
+    background-color: hsl(209, 23%, 22%) !important;
+    color: white !important;
+
+
+}
+
+select.light{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(200, 15%, 8%) !important;
+    -webkit-box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.25);
+    box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.25);
+}
+

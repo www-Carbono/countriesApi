@@ -1,0 +1,40 @@
+@font-face {
+    font-family: NunitoSans;
+    src: url(../src/assets/NunitoSans.ttf);
+  }
+body.dark{
+    background-color: hsl(207, 26%, 17%);
+}
+
+body.light{
+    background-color: hsl(0, 0%, 98%);
+}
+
+header{
+    font-family: NunitoSans;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    align-items: center;
+    padding: 20px;
+}
+
+header.dark{
+    background-color: hsl(209, 23%, 22%);
+
+}
+
+header.light{
+    color: hsl(200, 15%, 8%);
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+.themeIcon{
+    height: 24px !important;
+    width: 24px !important;
+}
+
+.ionicon{
+    fill: red !important
+}

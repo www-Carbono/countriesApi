@@ -1,0 +1,58 @@
+@font-face {
+    font-family: NunitoSans;
+    src: url(../assets/NunitoSans.ttf);
+  }
+
+  .containerParent {
+    display: grid;
+    justify-content: center;
+    background-color: hsl(207, 26%, 17%);
+    font-family: NunitoSans;
+    margin-top: 30px;
+}
+
+.containerParent.dark{
+  background-color: hsl(207, 26%, 17%);
+}
+
+.containerParent.light{
+  background-color: hsl(0, 0%, 98%) !important;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;  /* Centrar horizontalmente */
+    gap: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.container div.light{
+  color: hsl(200, 15%, 8%);
+  -webkit-box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.25);
+  box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.25);
+}
+
+
+img{
+    height: 200px !important;
+    width: 300px !important;
+    object-fit: cover;
+}
+
+h2{
+    font-weight: 800 !important;
+    font-style: normal;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+h2,p{
+    padding: 2px 20px;
+  }
+
+.container p:last-child{
+    padding-bottom: 50px !important;
+  }
